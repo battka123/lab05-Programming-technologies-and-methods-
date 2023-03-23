@@ -38,7 +38,6 @@ TEST(Account, Banking){
 //проверяем, что анлок работает
 	test.Unlock();
 	ASSERT_THROW(test.ChangeBalance(100), std::runtime_error);
-//радуемся жизни
 }
 
 TEST(Transaction, Banking){
