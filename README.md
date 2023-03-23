@@ -1,4 +1,4 @@
-#Homework
+# Homework
 
 Клонирую репозиторий 5 лабы и перехожу в папку с ним. Отвязываю его `git remote remove`. Привязываю к созданному `git add remote`. 
 В каталоге banking редактирую CMakeLists.txt:
