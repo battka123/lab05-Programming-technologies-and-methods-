@@ -14,9 +14,9 @@ add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/gtest" "gtest")
 
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/banking)
 
-add_executable(tests ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp) // местоположение моих тестов
+add_executable(tests ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp) 
 
-if (COVERAGE) // если определена переменная, то добавляются опции библиотеки и компилятора
+if (COVERAGE) 
 
 target_compile_options(tests PRIVATE --coverage)
 
